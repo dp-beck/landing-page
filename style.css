@@ -5,41 +5,36 @@ body {
 }
 
 /*HEADER SECTION STYLING*/
-.header {
+#header {
     background: #1F2937;
     display: flex;
     flex-direction: column;
     padding: 0 100px 100px 100px;
 }
 
-.header-1 {
+#header-1 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
-.header-2 {
+#header-2 {
     display: flex;
     height: 300px;
     justify-content: space-between;
     gap: 125px;
 }
 
-.header-2-a {
+#header-2-a {
     display: flex;
     flex-direction: column;
 }
 
-.header-2-a > h1 {
+#header-2-a > h1 {
     font-size: 48px;
     font-weight: 800;
     margin: 0;
     color: #F9FAF8;
-}
-
-.header-2-a > p {
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
 #header-logo-text {
@@ -63,14 +58,14 @@ body {
 }
 
 /*RANDOM INFORMATION SECTION STYLING*/
-.random-information {
+#random-information {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 50px;
 }
 
-.image-bar-container {
+#image-bar-container {
     display: flex;
     justify-content: center;
     width: 750px;
@@ -99,14 +94,14 @@ body {
 }
 
 /*QUOTE SECTION STYLING*/
-.quote {
+#quote {
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center
 }
 
-.quote-wrapper {
+#quote-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,13 +127,13 @@ body {
 
 /*Call to Action Section*/
 
-.sign-up-wrapper {
+#sign-up-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.sign-up {
+#sign-up {
     border-radius: 8px;
     background-color: #3882F6;
     display: flex;
@@ -149,7 +144,7 @@ body {
     padding: 25px 100px;
 }
 
-.sign-up-text {
+#sign-up-text {
     display: flex;
     flex-direction: column;
 }
@@ -164,8 +159,6 @@ body {
 }
 
 #sign-up-sub-text {
-    font-size: 18px;
-    color: #E5E7EB;
     margin: 0px;
 }
 
@@ -180,7 +173,7 @@ body {
 }
 
 /*Footer Section*/
-.footer {
+#footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,15 +181,13 @@ body {
     padding: 25px 0;
 }
 
-.footer > p {
-    font-size: 18px;
-    color: #E5E7EB;
+#footer > p {
     margin: 0px;
 }
 
+/*Miscellaneous*/
+
 a {
-    font-size: 18px;
-    color: #E5E7EB;
     text-decoration: none;
 }
 
@@ -206,3 +197,7 @@ ul {
     gap: 20px;
 }
 
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
